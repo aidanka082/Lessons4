@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent"
+    android:background="#FFBB86FC"
+    tools:context=".MainActivity2">
+
+    <EditText
+        android:hint="Enter title"
+        android:id="@+id/et_title"
+        android:layout_margin="13dp"
+        android:textColorHint="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:hint="Enter description"
+        android:textColorHint="@color/white"
+        android:id="@+id/et_description"
+        android:layout_below="@+id/et_title"
+        android:layout_margin="13dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/add_btn"
+        android:text="Добавить"
+        android:layout_below="@+id/et_description"
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+</RelativeLayout>
