@@ -36,6 +36,8 @@ public class MainActivity2 extends AppCompatActivity {
                     return;
                 }
 
+
+
                 Intent intent = new Intent(MainActivity2.this,MainActivity.class);
                 intent.putExtra("title",title);
                 intent.putExtra("description",description);
